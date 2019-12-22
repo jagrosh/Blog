@@ -76,7 +76,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/greenwave.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "John Grosh"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/greenwave.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I fixed a bug once."
   location         : "United States"
   email            : "j@gro.sh"
