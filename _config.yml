@@ -102,7 +102,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:j@gro.sh
+      #url: mailto:j@gro.sh
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://jagrosh.com"
