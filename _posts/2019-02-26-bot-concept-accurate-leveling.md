@@ -4,8 +4,8 @@ excerpt_separator: "<!--more-->"
 categories:
   - Discord
 tags:
-  - Discord
-  - Discord-Bots
+  - discord
+  - discord-Bots
   - development
   - concept
 ---
