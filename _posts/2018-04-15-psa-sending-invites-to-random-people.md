@@ -5,8 +5,8 @@ categories:
   - Discord
 tags:
   - psa
-  - Discord
-  - ToS
+  - discord
+  - tos
 ---
 
 Ask any moderator of a large server, and they’ll tell you that easily one of the toughest things to track down, and one of the most rampant issues, is getting rid of users that advertise in Direct Messages. And possibly the worse part: a lot of these users don’t realize that doing this is breaking the terms of service.
