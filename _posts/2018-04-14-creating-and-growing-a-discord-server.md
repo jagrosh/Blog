@@ -4,9 +4,9 @@ excerpt_separator: "<!--more-->"
 categories:
   - Discord
 tags:
-  - Discord
+  - discord
   - guide 
-  - Discord-Bots
+  - discord-bots
 ---
 
 > This guide is kept up-to-date as Discord and available resources change!
