@@ -9,8 +9,11 @@ tags:
   - google-forms
 ---
 
+Sending the results of a Google form right to a Discord channel is easy and free; all it takes is a bit of setup! Here is an overview of how to get started:
+
 # 1. Create a Google form
-* For ease of editing the script later, it is recommended that the first question in the form ask for the user's Discord ID
+* For ease of editing the script later, it is recommended that the first question in the form ask for the user's Discord ID.
+* Make sure to utilize optional questions when possible, as the script can detect when answers are blank and avoid wasting space in the message sent to Discord.
 
 # 2. Open the Script Editor
 * Go to the 'Responses' tab
@@ -92,10 +95,11 @@ function getColumnNames() {
 // Copyright 2020 jagrosh
 ```
 # 4. Create a webhook in the Discord channel you want the form results sent to
+* This can be found by opening the channel settings (⚙ icon) and going to Webhooks.
 
 # 5. Modify the specified values in the script
 * Copy the webhook URL from the webhook you created into the script, replacing the example url.
-* Modify the skipped questions and output format, if desired
+* Modify the skipped questions and output format, if desired.
 
 # 6. Initialize the script
 * Select 'initialize' from the drop-down menu titled 'select function'
