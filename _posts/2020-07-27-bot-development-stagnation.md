@@ -11,6 +11,8 @@ tags:
 
 Over the past few months, development of my bots has nearly come to a standstill. Even the changes that have been made have mostly been performance or scaling improvements, with few or no real new front-facing features. There is not just one reason for this, but rather a compounding of several reasons:
 
+<!--more-->
+
 ### Time Limitations
 As most of you already know, making bots is not my job. While I am lucky that donations from generous individuals cover the majority of the hosting and maintenance costs, bot development ends up being a moderately-costly hobby, in addition to the massive amounts of time it can eat up. Unfortunately, the time here is the limiting resource. I work full-time as a software developer, which means that most days I have minimal time for extraneous activities. Even when I do have time, I am often mentally exhausted from work to the point that working on bots can feel like a chore. 
 
