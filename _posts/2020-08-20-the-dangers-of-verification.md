@@ -11,6 +11,8 @@ tags:
 
 A few months ago, [Discord announced the bot verification system and requirements](https://blog.discord.com/the-future-of-bots-on-discord-4e6e050ab52e). Since then, they've also added a [support article](https://support.discord.com/hc/en-us/articles/360040720412-Bot-Verification-and-Data-Whitelisting) with more details about it. Unfortunately, the blog post does not discuss the implications of verification, and the support article only touches on it very briefly at the end.
 
+<!--more-->
+
 ### Bot Verification requires sharing sensitive - and potentially dangerous - documents with Discord
 At least in the United States, verification requires either a driver's license or a passport. Both of these are highly sensitive documents that are extremely dangerous in the hands of bad actors. Both of these documents are common targets for identity theft. A driver's license as a very dangerous piece of documentation to share, and it is often recommended to only share it with government officials or when required by law. See these sources for more information: [1](https://www.idtheftcenter.org/can-someone-steal-your-identity-from-your-drivers-license/), [2](https://www.forbes.com/sites/laurenfix/2018/04/17/personal-privacy-of-your-driver-license/), [3](https://www.pcworld.com/article/136120/article.html)
 
@@ -24,10 +26,10 @@ Unfortunately, this doesn't provide any specific information or names of the emp
 
 ### Other platforms don't require nearly as much risk to make applications
 * Twitter - Applying for a developer account requires detailed use-case information about how you plan to use their API, but no personal documents are needed
-* Twitch - 
-* GitHub - 
-* Reddit - 
-* Facebook - 
+* Twitch - [tbd]
+* GitHub - [tbd]
+* Reddit - [tbd]
+* Facebook - [tbd]
 
 ### Discord shouldn't need this information to prevent abuse
 It's well-known that spam-bots (and other malicious bots) plague Discord. Fake clones of GiveawayBot pop up weekly, spamming direct messages with things such as "get nitro for free by adding this bot to your server," and then using those users' naivety to spread to more users and more servers. A verified tick next to a well-known bot's name, as well as limiting unverified bots to 100 servers, _does_ significantly help prevent this kind of thing. Additionally, verifying a bot locks its name, which prevents a bot being verified under a false pretense and then changing appearance to clone another bot. However, this kind of verification should not require sensitive documents from the bot developer. It should be possible to submit an application for verification (to be reviewed by a human) without risking identity theft.  
@@ -43,3 +45,8 @@ A lot of policies can change in a year. If Discord makes a change that you don't
 
 ### Summary
 The concept of human-reviewed verification is good, but requiring dangerous documents is unnecessary. Other platforms demonstrate examples of verification that don't require risky behavior, and that abuse can be prevented effectively with these systems. Discord provides very little information about who can access your documents (and no information nor guarantees about the future), increasing the riskiness of sharing sensitive documents with the company.
+
+---
+
+### Update
+Since originally writing this article, Discord reached out to me about the verification process, and we found a compromise that enabled me to verify my bots. Essentially, the only data that was needed was real name, birth date, and current address. While I'm sure that there are still many bot devs that feel that this is still too intrusive, this is certainly much better (from an identity theft standpoint) than providing unmodified scans of the raw documents. If you are in the situation where you are not comfortable sending the documents as-is, but are still comfortable with sharing the aforementioned info, consider reaching out to Discord support about this as an alternative verification method.
